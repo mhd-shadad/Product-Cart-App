@@ -1,0 +1,76 @@
+
+body{
+    background-color: #ffffff;
+    padding: 5%;
+    margin: 0 auto;
+}
+#main-section{
+  margin: 0 auto;
+}
+.custom-card{
+  max-width: 260px;
+  max-height: 360px;    
+  margin: 10px 5px ;
+  text-align: start;
+}
+.custom-card button{
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  position:relative;
+  bottom: 140px;
+  left: 50px;
+}
+.custom-card:hover {
+  border: 3px solid #ff9d00;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.my-card {
+  background-color: rgb(255, 255, 255);
+  max-width: 20rem;
+  min-height: 260px;
+  border-radius: 15px;
+}
+.btn_1{
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+#my-btn{
+  width:100%;
+  border-radius: 20px;
+}
+.my-list img{
+  width:30px;
+  margin: 5px;
+}
+.list-item {
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+      
+}
+.icon-div{
+  font-size: 12px; 
+}
+@media (max-width: 768px) { 
+  .custom-card {
+      width: 300px;
+      height: auto;
+    }
+}
+@media (max-width: 643px) { 
+  .custom-card {
+      max-width: 400px;
+      max-height: 395px;
+    }
+  .custom-card button{
+      position:relative;
+      bottom: 110px;
+      left: 80px;
+    }
+}
