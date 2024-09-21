@@ -66,7 +66,7 @@ function newCart(){
     let div_2 = document.createElement('div');
     div_2.classList.add("icon_div","alert","alert-warning");
     let img = document.createElement('img');
-    img.src = "../img/icon-carbon-neutral.svg";
+    img.src = "img/icon-carbon-neutral.svg";
 
     const cont = document.createTextNode('This is a carbon-nertral delivery');
 
